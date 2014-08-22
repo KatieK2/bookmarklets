@@ -1,0 +1,3 @@
+#Contributing
+
+Bugfixes welcome!
