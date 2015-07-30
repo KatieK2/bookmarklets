@@ -1,1 +1,8 @@
-javascript:(function(){var%20css%20=%20document.createElement("style");%20css.type%20=%20"text/css";%20css.innerHTML%20=%20"@media%20only%20screen%20and%20(max-width:%20800px)%20{%20body%20{%20background-color:%20teal;%20}%20}"%20+%20"@media%20only%20screen%20and%20(max-width:%20540px)%20{%20body%20{%20background-color:%20magenta;%20}%20}%20"%20+%20"@media%20screen%20and%20(min-width:1300px)%20{%20body%20{%20background-color:%20orange;%20}%20}";%20document.body.appendChild(css);})();
+javascript:(function(){
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = "@media only screen and (max-width: 800px) { body { background-color: teal !important; } }" +
+    "@media only screen and (max-width: 540px) { body { background-color: magenta !important; } } " +
+    "@media screen and (min-width:1300px) { body { background-color: orange !important; } }";
+  document.body.appendChild(css);
+})();
