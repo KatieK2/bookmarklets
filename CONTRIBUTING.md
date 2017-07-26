@@ -1,3 +1,3 @@
 #Contributing
 
-Bugfixes welcome!
+Bug fixes welcome!
